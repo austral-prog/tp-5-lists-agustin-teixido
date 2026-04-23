@@ -12,4 +12,9 @@ def check_lists(lista1, lista2):
     Returns:
         True si ambas listas tienen el mismo tercer elemento, False en caso contrario
     """
-    pass  # Reemplazar con tu implementación
+    pass
+
+    if len(lista1) > 2 and len(lista2) > 2:
+        return lista1[2] == lista2[2]
+    else:
+        return False
